@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="index.css" />
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="fullpage.css">
+</head>
+
+<body>
+
+  <div id="fullpage">
+    <!-- first page -->
+    <section class="section">
+      <nav>
+        <ul>
+          <div class="popup" data-modal-target="#about">
+            <span class="popuptext" id="about">This page shows a data visualization of a few moments in the history
+              of graphic design. Hover over a circle to see its title or scroll down to read more about each period. If
+              you click on the <i>split
+                view</i>
+              button, you will see design eras related to Modernism divided off to the left.</span>
+            <li class="underline"><a href="#">about site</a></li>
+          </div>
+          <div class="popup" data-modal-target="#creators">
+            <span class="popuptext" id="creators">This page was created by Xinyuan Chen<br>and
+              Evelina Ellis.</span>
+            <li class="underline"><a href="#">creators</a></li>
+          </div>
+          <li><img src="images/owl.svg" alt="owl"></li>
+          <li id="normal" class="underline"><a href="#">normal view</a></li>
+          <li id="split" class="underline"><a href="#">split view</a></li>
+        </ul>
+      </nav>
+
+      <div id="overlay"></div> <!-- closes the popups when clicked on -->
+
+      <div id="chart"></div> <!-- where d3 circles are shown -->
+
+      <h1>graphic design history visualized</h1>
+    </section>
+
+    <!-- second page -->
+    <section class="section">
+      <span class="line"></span>
+      <span class="circle"></span>
+      <h2>The Gutenberg Bible 1455</h2>
+      <p class="text">Named after its printer, Johannes Gutenberg, the Gutenberg Bible is the first work to be
+        printed
+        with movable type. The book marks a significant point in graphic design history as it represents the beginning
+        of
+        mass-printing.</p>
+      <div class="art">
+        <img src="images/gutenberg.jpg" alt="The Gutenberg Bible">
+        <p>The Gutenberg Bible, Taschen</p>
+      </div>
+    </section>
+
+    <!-- third page here and so on -->
+    <section class="section">
+      <span class="line"></span>
+      <span class="circle"></span>
+      <h2>Arts and Crafts 1880 – 1910</h2>
+      <p class="text">The Arts and Crafts movement developed in opposition to the mass-produced design following the
+        Industrial Revolution. Being a philosophy as much as a design style, the idea was to return to the quality
+        and
+        personality of hand crafted items. William Morris was at the forefront of the movement and believed in
+        surrounding oneself with good design that was both functional and beautiful.</p>
+      <div class="art">
+        <img src="images/artscrafts.jpg" alt="Arts and Crafts">
+        <p>Acanthus Wallpaper, William Morris, 1875</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <span class="line"></span>
+      <span class="circle"></span>
+      <h2>Art Nouveau 1890 – 1910</h2>
+      <p class="text">Similar to the Arts and Crafts movement which took place during the same time, Art Nouveau is
+        characterized by organic lines and ornamental flourishes. Designs often portrayed elements of nature and
+        female
+        figures. Alphonse Mucha is one of the most notable names from this period.</p>
+      <div class="art">
+        <img src="images/artnouveau.jpg" alt="Art Nouveau">
+        <p>Zodiac, Alphonse Mucha, 1896</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <span class="line"></span>
+      <span class="circle"></span>
+      <h2>Expressionism 1905 – 1933</h2>
+      <p class="text">Expressionists sought to portray emotion at the cost of realism. Forms were dramatized and
+        distorted, heavy strokes, shadows and bold colors were common. Part of what made Expressionism successful
+        was
+        the emotion it evoked in its viewers, making the art more memorable.</p>
+      <div class="art">
+        <img src="images/expressionism.jpg" alt="Expressionism">
+        <p>The Sick Child, Edvard Munch, 1886</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <span class="line"></span>
+      <span class="circle"></span>
+      <h2>Cubism 1907 – 1914</h2>
+      <p class="text">Pablo Picasso and Georges Braque are two of the artists most known for establishing the Cubist
+        art
+        style. Coined after a comment on one of Braques works as composed of cubes, Cubism features scenes and
+        figures
+        abstracted into shapes. This rejection of traditional perspective for a more fragmented depiction of reality
+        continues to influence art and design.</p>
+      <div class="art">
+        <img src="images/picasso.jpg" alt="Cubism">
+        <p>Les Demoiselles d'Avignon, Pablo Picasso, 1907</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <span class="line"></span>
+      <span class="circle"></span>
+      <h2>Futurism 1909 – 1916</h2>
+      <p class="text">Futurism, having its origin in Italy, strove to embrace concepts such as innovation, speed,
+        violence, and youth. Recurring motifs as cars, people and animals in motion, illustrated the dynamism that
+        the
+        movement was about &mdash; rejecting the past and moving towards the future.</p>
+      <div class="art">
+        <img src="images/futurism.jpg" alt="Futurism">
+        <p>Perfume, Luigi Russolo, 1910</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <span class="line"></span>
+      <span class="circle"></span>
+      <h2>Dadaism 1916 – 1923</h2>
+      <p class="text">Those who adhered to Dadaism held to the belief that all things were devoid of real meaning.
+        This
+        philosophy extended to art, literature, music, and film. As an art movement it favored the style of montage and
+        elements
+        placed seemingly at random.</p>
+      <div class="art">
+        <img src="images/dadaism.jpg" alt="Dadaism">
+        <p>Cut with the Dada Kitchen Knife through the Last Weimar<br>Beer-Belly Cultural Epoch in Germany, Hannah Höch,
+          1919</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <span class="line"></span>
+      <span class="circle"></span>
+      <h2>Constructivism 1919 – 1930</h2>
+      <p class="text">Constructivism began in Russia at the onset of Communism and propelled the idea of
+        constructing
+        art into something that could be manufactured for the benefit of society. Other artists and designers,
+        however,
+        continued with a more abstract and analytical style inspired by Cubism and Futurism.</p>
+      <div class="art">
+        <img src="images/constructivism.jpg" alt="Constructivism">
+        <p>Proun 19D, El Lissitzky, 1922</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <span class="line"></span>
+      <span class="circle"></span>
+      <h2>Bauhaus 1919 – 1933</h2>
+      <p class="text">"Form follows function" is the central principle taught by this German design school. Building
+        off
+        of previous movements, the style that developed during its existence often consisted of geometric shapes
+        combined with fine art. Bauhaus has impacted the graphic design industry significantly and its principles
+        are
+        still taught today.</p>
+      <div class="art">
+        <img src="images/mnagy.jpg" alt="Bauhaus">
+        <p>K VII, Laszlo Moholy-Nagy, 1922</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <span class="line"></span>
+      <span class="circle"></span>
+      <h2>Art Déco 1925 – 1939</h2>
+      <p class="text">Beginning in Paris, Art Déco flourished between the two World Wars and received international
+        recognition. It brought simplicity, energy, and glamour together into a style that spanned essentially all
+        areas
+        of design.</p>
+      <div class="art">
+        <img src="images/artDeco3.jpg" alt="Art Deco">
+        <p>Black and White, Jose de Almada-Negreiros, 1929</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <span class="line"></span>
+      <span class="circle"></span>
+      <h2>Swiss Style 1950s</h2>
+      <p class="text">Also known as International Typographic Style, the movement originated in Switzerland and
+        quickly
+        became popularized. Its designs were often based on a grid system with simple and asymmetrical layouts
+        featuring
+        sans-serif typefaces. Josef Müller-Brockmann is well-known for his distinct Swiss style posters.</p>
+      <div class="art">
+        <img src="images/swiss.jpg" alt="Swiss Style">
+        <p>Der Film, Josef Müller-Brockmann, 1960</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <span class="line"></span>
+      <span class="circle"></span>
+      <h2>The Creative Revolution 1950 – 1970</h2>
+      <p class="text">The Creative Revolution, as it was later titled, was a breakthrough in advertising. Companies
+        promoted their brand through self-deprecating humor or irony to appeal to its younger consumers, pairing
+        catchy
+        phrases with images that emphasized its selling point. Graphic design was a tool in forming these creative
+        campaigns.</p>
+      <div class="art">
+        <img src="images/vwcar.jpg" alt="The Creative Revolution">
+        <p>Volkswagen advertisement, 1965</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <span class="line"></span>
+      <span class="circle"></span>
+      <h2>Pop Art 1955 – 1980</h2>
+      <p class="text">The Pop Art movement brought everyday objects from popular culture, especially American, into
+        the
+        realm of art and design. It celebrated the ordinary in contrast to elitist art, and objects such as
+        packaging
+        and advertisement became the center point of imagery. Campbell's soup and vivid comic book inspired
+        portraits
+        are iconic motifs from this period.</p>
+      <div class="art">
+        <img src="images/PopArt.jpg" alt="Pop Art">
+        <p>Drowning Girl, Roy Lichtenstein, 1963</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <span class="line"></span>
+      <span class="circle"></span>
+      <h2>Psychedelia 1958 – 1975</h2>
+      <p class="text">Influenced by the vividness of Pop Art and the prevalence of hallucinatory drugs, the style
+        features striking colors and abstract swirls of lines and type. Elements of Art Nouveau are often seen in works
+        from this time, many of which were posters made to promote music shows and festivals.</p>
+      <div class="art">
+        <img src="images/moscoso2.jpg" alt="Psychedelia">
+        <p>Peacock Ball, Victor Moscoso, 1967</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <span class="line"></span>
+      <span class="circle"></span>
+      <h2>Postmodernism 1970 – 2000</h2>
+      <p class="text">A shift in ideology to believing in a subjective reality rather than objective led to a more
+        controversial approach to design that challenged previous systems. Both Punk and digital design belong to
+        this
+        broad movement and it is debated whether the postmodern era has truly ended.</p>
+      <div class="art">
+        <img src="images/POSTMODERNISM_01.jpg" alt="Postmodernism">
+        <p>Joy Division "Unknown Pleasures", Peter Saville, 1979</p>
+      </div>
+    </section>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+  <!-- basic style of tooltip -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+  <script src="style/bubble.js"></script>
+  <script src="style/nav.js"></script>
+  <!--scroll fullpage effect links and libraries-->
+  <script src="style/fullpage.js"></script>
+  <script src="style/scrolleffect.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"
+    integrity="sha256-fIkQKQryItPqpaWZbtwG25Jp2p5ujqo/NwJrfqAB+Qk=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
+    integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U=" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
