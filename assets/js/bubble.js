@@ -56,7 +56,7 @@
 
   //add csv file
   d3.queue()
-    .defer(d3.csv, "history08.csv")
+    .defer(d3.csv, "bubble.csv")
     .await(ready)
 
 
@@ -149,6 +149,11 @@
           return d.y
         })
     }
+
+    simulation
+    .force("x", forceXCombine)//rewrite the X, replacing by forceXcombine
+    .alphaTarget(0.3)//give energy, a little bit nudge
+    .restart()// tell the simulation to restart
   }
 
 
