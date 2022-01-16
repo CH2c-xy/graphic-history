@@ -1,16 +1,16 @@
 id,name,scale,decade,image_path,movement,time
-TheGutenbergBible,TheGutenbergBible,40,1455,assets/img/gutenberg.jpg,The Gutenberg Bible,1455
-ArtsAndCrafts,ArtsAndCrafts,34,1880-1910,assets/img/arts-crafts.jpg,Arts and Crafts,1880-1910
-ArtNouveau,ArtNouveau,300,1890-1910,assets/img/art-nouveau.jpg,Art Nouveau,1890-1910
-FUTURISM,FUTURISM,20,1900-1970,assets/img/futurism.jpg,Futurism,1909-1916
-CUBISM,CUBISM,125,1900-1970,assets/img/picasso.jpg,Cubism,1907-1914
-DADAISM,DADAISM,80,1900-1970,assets/img/dadaism.jpg,Dadaism,1916-1923
-EXPRESSIONISM,EXPRESSIONISM,10,1900-1970,assets/img/expressionism.jpg,Expressionism,1905-1933
-BAUHAUS,BAUHAUS,50,1900-1970,assets/img/mnagy.jpg,Bauhaus,1919-1933
-Constructivism,Constructivism,60,1900-1970,assets/img/constructivism.jpg,Constructivism,1919-1930
-ArtDeco,ArtDeco,150,1925-1939,assets/img/art-deco.jpg,Art Deco,1925-1939
-SwissStyle,SwissStyle,23,1950s,assets/img/swiss.jpg,Swiss Style,1950s
-TheCreativeRevolution,TheCreativeRevolution,25,1950-1970,assets/img/vwcar.jpg,The Creative Revolution,1950-1970
-PopArt,PopArt,27,1955-1980,assets/img/popart.jpg,Pop art,1955-1980
-Psychedelia,Psychedelia,84,1958-1975,assets/img/moscoso.jpg,Psychedelia,1958-1975
-Postmodernism,Postmodernism,20,1970-2000,assets/img/postmodernism.jpg,Postmodernism,1970-2000
+TheGutenbergBible,TheGutenbergBible,40,1455,assets/thumbnail/gutenberg.jpg,The Gutenberg Bible,1455
+ArtsAndCrafts,ArtsAndCrafts,34,1880-1910,assets/thumbnail/arts-crafts.jpg,Arts and Crafts,1880-1910
+ArtNouveau,ArtNouveau,300,1890-1910,assets/thumbnail/art-nouveau.jpg,Art Nouveau,1890-1910
+FUTURISM,FUTURISM,20,1900-1970,assets/thumbnail/futurism.jpg,Futurism,1909-1916
+CUBISM,CUBISM,125,1900-1970,assets/thumbnail/picasso.jpg,Cubism,1907-1914
+DADAISM,DADAISM,80,1900-1970,assets/thumbnail/dadaism.jpg,Dadaism,1916-1923
+EXPRESSIONISM,EXPRESSIONISM,10,1900-1970,assets/thumbnail/expressionism.jpg,Expressionism,1905-1933
+BAUHAUS,BAUHAUS,50,1900-1970,assets/thumbnail/mnagy.jpg,Bauhaus,1919-1933
+Constructivism,Constructivism,60,1900-1970,assets/thumbnail/constructivism.jpg,Constructivism,1919-1930
+ArtDeco,ArtDeco,150,1925-1939,assets/thumbnail/art-deco.jpg,Art Deco,1925-1939
+SwissStyle,SwissStyle,23,1950s,assets/thumbnail/swiss.jpg,Swiss Style,1950s
+TheCreativeRevolution,TheCreativeRevolution,25,1950-1970,assets/thumbnail/vwcar.jpg,The Creative Revolution,1950-1970
+PopArt,PopArt,27,1955-1980,assets/thumbnail/popart.jpg,Pop art,1955-1980
+Psychedelia,Psychedelia,84,1958-1975,assets/thumbnail/moscoso.jpg,Psychedelia,1958-1975
+Postmodernism,Postmodernism,20,1970-2000,assets/thumbnail/postmodernism.jpg,Postmodernism,1970-2000
